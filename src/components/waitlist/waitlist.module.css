@@ -1,0 +1,221 @@
+.container {
+  width: 100%;
+}
+
+.innerContainer {
+  width: 100%;
+  margin-bottom: 4rem;
+  background: rgba(250, 112, 112, 0.1);
+}
+
+.hero {
+  width: 90%;
+  margin: auto;
+}
+
+.logo {
+  padding-top: 3rem;
+}
+
+.text {
+  text-align: center;
+  width: 80%;
+  margin: auto;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+}
+
+.text h2 {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 82px;
+  text-align: center;
+  letter-spacing: -0.005em;
+  color: #231f20;
+}
+
+.text p {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 33px;
+  text-align: center;
+  color: #686060;
+  width: 63%;
+  margin: auto;
+  padding-bottom: 2rem;
+}
+
+.text button{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    width: 220px;
+    height: 54px;
+    background: #D81616;
+    border-radius: 8px;
+    cursor: pointer;
+    border: none;
+}
+
+.services {
+  width: 100%;
+  margin: auto;
+  background: #ffffff;
+}
+
+.topServices {
+  width: 90%;
+  margin: auto;
+  text-align: center;
+  padding-bottom: 5rem;
+}
+
+.topServices h3 {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: -0.005em;
+  color: #231f20;
+}
+
+.topServices p {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 33px;
+  text-align: center;
+  color: #686060;
+}
+
+.mainServices {
+  width: 80%;
+  margin: auto;
+}
+
+.image>img{
+    width: 95%;
+  }
+
+.card {
+  width: 522px;
+  height: 182px;
+  background: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 3.5rem;
+  padding-left: 3rem;
+}
+
+.card:hover {
+  box-shadow: 14px 22px 52px -12px rgba(127, 127, 127, 0.13);
+  border-radius: 14px;
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: 0.7s;
+}
+
+.cardText h4 {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 26px;
+  color: #2f2c4a;
+}
+
+.cardText p {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #8c8c8c;
+  width: 85%;
+}
+
+.cards1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cards2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer{
+    width: 100%;
+    background: #231F20;
+    margin-top: 3rem;
+}
+
+.footInner{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.footText p{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 14px;
+    color: #F6F6F6;
+    padding-top: 1.5rem;
+}
+
+.footSocial{
+    padding-top: 0.4rem;
+}
+
+.footSocial>img{
+    width: 20%;
+    padding-left: 0.5rem;
+}
+
+@media screen and (max-width: 1024px){
+    .board>img{
+        width: 95%;
+    }
+
+    .text {
+        width: 95%;
+      }
+
+    .text h2 {
+        font-size: 64px;
+        line-height: 72px;
+        padding-bottom: 1rem;
+      }
+
+      .text p {
+        width: 70%;
+      }
+      
+      .mainServices {
+        width: 90%;
+        margin: auto;
+      }
+      .cardText p {
+        width: 90%;
+      }
+
+      .image>img{
+        width: 95%;
+      }
+}

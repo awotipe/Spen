@@ -1,0 +1,104 @@
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contain1{
+    width: 40%;
+}
+
+
+.contain2{
+    width: 52%;
+    padding-left: 8rem;
+    padding-top: 18rem;
+    background: rgba(250, 112, 112, 0.1);
+}
+
+.logo{
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    padding-top:3rem;
+}
+
+.frame{
+    position: absolute;
+}
+
+.side{
+    position: relative;
+    padding-top: 8.3rem;
+}
+
+.topText{
+    margin-bottom: 3rem;
+}
+
+.topText h1{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 82px;
+    letter-spacing: -0.005em;
+    color: #231F20;
+}
+
+.topText p{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 33px;
+    color: #231F20;
+    width: 85%;
+    padding-left: 0.5rem;
+    border-left: 2px solid #DD1616;
+}
+
+.field button{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    width: 201px;
+    height: 54px;
+    background: #D81616;
+    border-radius: 8px;
+    cursor: pointer;
+    border: none;
+}
+
+@media screen and (max-width: 1024px){
+    .frame>img{
+        width: 75%;
+    }
+
+    .side>img{
+        width: 90%;
+        padding-top: 0.4rem;
+    }
+
+    .contain2{
+        width: 52%;
+        padding-left: 6rem;
+        padding-top: 18rem;
+    }
+
+    input{
+        width: 400px;
+    }
+
+    .topText h1{
+        font-size: 45px;
+        line-height: 62px;
+    }
+    
+    .topText p{
+        font-size: 18px;
+        width: 95%;
+    }
+}

@@ -17,6 +17,10 @@
   padding-top: 3rem;
 }
 
+.logo>img{
+    width: 10%;
+}
+
 .text {
   text-align: center;
   width: 80%;
@@ -179,8 +183,12 @@
     padding-top: 1.5rem;
 }
 
+.footLogo{
+    margin-left: 8rem;
+}
+
 .footSocial{
-    padding-top: 0.4rem;
+    padding-top: 1.7rem;
 }
 
 .footSocial>img{
@@ -189,6 +197,10 @@
 }
 
 @media screen and (max-width: 1024px){
+    .logo>img{
+        width: 12%;
+    }
+
     .board>img{
         width: 95%;
     }
@@ -218,4 +230,240 @@
       .image>img{
         width: 95%;
       }
+}
+
+@media screen and (max-width: 768px){
+    .text {
+        width: 85%;
+      }
+
+    .text h2 {
+        font-size: 44px;
+        line-height: 52px;
+        padding-bottom: 1rem;
+      }
+
+      .text p {
+        width: 90%;
+        font-size: 20px;
+      }
+
+      .topServices {
+        padding-bottom: 0.5rem;
+      }
+
+      .topServices h3 {
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 30px;
+      }
+      
+      .topServices p {
+        font-size: 16px;
+      }
+      
+      
+      .mainServices {
+        width: 90%;
+        margin: auto;
+      }
+
+      .cardText h4 {
+        font-weight: 400;
+        font-size: 18px;
+      }
+      
+      .cardText p {
+        font-weight: 400;
+        font-size: 12px;
+        width: 100%;
+        line-height: 19px;
+      }
+
+      .footText p{
+        padding-top: 2rem;
+    }
+
+    .card {
+        padding-left: 1rem;
+      }
+
+      .footLogo{
+        margin-top: 0.5rem;
+    }
+
+    .footLogo>img{
+        width: 60%;
+    }
+
+    .footSocial{
+        padding-top: 0.8rem;
+        margin-left: 1rem;
+    }
+    
+    .footSocial>img{
+        width: 20%;
+        padding-left: 0.5rem;
+    }
+}
+
+@media screen and (max-width: 651px){
+    .text {
+        width: 85%;
+      }
+
+    .text h2 {
+        font-size: 35px;
+      }
+
+      .text p {
+        width: 85%;
+        font-size: 16px;
+      }
+
+      .topServices h3 {
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 30px;
+      }
+      
+      .topServices p {
+        font-size: 16px;
+      }
+      
+      .mainServices {
+        width: 90%;
+        margin: auto;
+      }
+
+      .cardText h4 {
+        font-weight: 400;
+        font-size: 16px;
+      }
+      
+      .cardText p {
+        font-weight: 400;
+        font-size: 12px;
+        width: 100%;
+        line-height: 19px;
+      }
+
+      .footText p{
+        padding-top: 1.5rem;
+    }
+
+    .footLogo{
+        margin-top: 0.5rem;
+    }
+
+    .footLogo>img{
+        width: 50%;
+    }
+
+    .footSocial{
+        padding-top: 1rem;
+        margin-left: 1rem;
+    }
+    
+    .footSocial>img{
+        width: 15%;
+        padding-left: 0.5rem;
+    }
+
+}
+
+@media screen and (max-width: 425px){
+    .text {
+        width: 85%;
+      }
+
+    .text h2 {
+        font-size: 45px;
+      }
+
+      .text p {
+        width: 85%;
+        font-size: 18px;
+      }
+
+      .topServices h3 {
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 30px;
+      }
+      
+      .topServices p {
+        font-size: 16px;
+      }
+      
+      .mainServices {
+        width: 90%;
+        margin: auto;
+      }
+
+      .card {
+        width: 332px;
+        padding-top: 2.5rem;
+        padding-left: 0rem;
+        margin: auto;
+        margin-bottom: 1rem;
+      }
+      
+      .cardText h4 {
+        font-family: "Manrope";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 26px;
+        color: #2f2c4a;
+      }
+      
+      .cardText p {
+        font-family: "Manrope";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #8c8c8c;
+        width: 100%;
+      }
+      
+      .cards1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      }
+      
+      .cards2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      }
+      
+      .footText p{
+        padding-top: 1rem;
+    }
+
+    .footLogo{
+        margin-top: 0.5rem;
+    }
+
+    .footLogo>img{
+        width: 60%;
+    }
+
+    .footSocial{
+        padding-top: 0.8rem;
+        margin-left: 4rem;
+    }
+    
+    .footSocial>img{
+        width: 25%;
+        padding-left: 0.5rem;
+    }
+
+    .board>img{
+        margin-left:0.5rem;
+    }
+
 }

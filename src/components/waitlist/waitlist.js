@@ -10,6 +10,7 @@ import twitter from "../../assets/twitter.png";
 import instagram from "../../assets/instagram.png";
 import facebook from "../../assets/facebook.png";
 import linkedin from "../../assets/linkedin.png";
+import footLogo from "../../assets/footLogo.png";
 // import curve from '../../assets/redCurve.png'
 
 const waitlist = () => {
@@ -100,7 +101,7 @@ const waitlist = () => {
         <p>Spen</p>
         </div>
         <div className={classes.footLogo}>
-        <img src={logo} alt="logo" />
+        <img src={footLogo} alt="logo" />
       </div>
       <div className={classes.footSocial}>
             <img src={twitter} alt="twitter" />

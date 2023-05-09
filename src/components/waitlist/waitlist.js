@@ -1,6 +1,6 @@
 import React from "react";
 import classes from "./waitlist.module.css";
-import logo from "../../assets/logo.png";
+import logo from "../../assets/logo2.svg";
 import board from "../../assets/board.png";
 import transfer from "../../assets/transfer.png";
 import bills from "../../assets/bills.png";

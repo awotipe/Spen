@@ -1,6 +1,6 @@
 import React from 'react'
 import classes from './success.module.css'
-import logo from "../../assets/logo.png";
+import logo from "../../assets/logo2.svg";
 import frame from "../../assets/blackFrame.png";
 import side from "../../assets/side.png";
 

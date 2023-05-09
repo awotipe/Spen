@@ -1,6 +1,6 @@
 import React from 'react'
 import classes from './form.module.css'
-import logo from "../../assets/logo.png";
+import logo from "../../assets/logo2.svg";
 import frame from "../../assets/redFrame.png";
 import side from "../../assets/side.png";
 

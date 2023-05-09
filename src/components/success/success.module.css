@@ -88,10 +88,6 @@
         padding-top: 18rem;
     }
 
-    input{
-        width: 400px;
-    }
-
     .topText h1{
         font-size: 45px;
         line-height: 62px;
@@ -100,5 +96,162 @@
     .topText p{
         font-size: 18px;
         width: 95%;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .frame>img{
+        width: 57%;
+    }
+
+    .side>img{
+        width: 100%;
+        margin-top: -4.4rem;
+    }
+
+    .contain2{
+        width: 52%;
+        padding-left: 3rem;
+        padding-top: 18rem;
+    }
+
+    .topText h1{
+        font-size: 35px;
+        line-height: 52px;
+        width: 100%;
+    }
+    
+    .topText p{
+        font-size: 15px;
+        width: 98%;
+    }
+
+    .field button{
+        font-weight: 400;
+        font-size: 14px;
+        width: 140px;
+        height: 44px;
+    }
+
+    .topText{
+        margin-bottom: 1rem;
+    }
+    
+}
+
+@media screen and (max-width: 425px){
+    .container{
+        flex-direction: column;
+    }
+    
+    .contain1{
+        width: 100%;
+    }
+    
+    
+    .contain2{
+        width: 100%;
+        padding-left: 5rem;
+        padding-top: 8rem;
+        padding-bottom: 3rem;
+    }
+    
+    .frame{
+        position: absolute;
+        width: 100%;
+    }
+    
+    .side{
+        position: relative;
+        padding-top: 8.3rem;
+    }
+
+    .frame>img{
+        width: 100%;
+        padding-bottom: 0.2rem;
+    }
+
+    .side>img{
+        width: 85%;
+        margin-top: -2.5rem;
+    }
+    
+    .topText{
+        margin-bottom: 2rem;
+    }
+    
+    .topText h1{
+        font-weight: 400;
+        font-size: 50px;
+        line-height: 52px;
+        padding-bottom: 1.5rem;
+    }
+    
+    .topText p{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 23px;
+        color: #231F20;
+        width: 95%;
+    }
+    
+    .field button{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 22px;
+        width: 140px;
+        height: 44px;
+    }
+}
+
+@media screen and (max-width: 375px){   
+    
+    .contain2{
+        width: 100%;
+        padding-left: 2rem;
+        padding-top: 6rem;
+        padding-bottom: 3rem;
+    }
+    
+    .side{
+        position: relative;
+        padding-top: 8.3rem;
+    }
+
+    .frame>img{
+        width: 100%;
+        padding-top: 0.9rem;
+    }
+
+    .side>img{
+        width: 85%;
+        margin-top: -2.4rem;
+    }
+    
+    .topText{
+        margin-bottom: 2rem;
+    }
+    
+    .topText h1{
+        font-weight: 400;
+        font-size: 50px;
+        line-height: 52px;
+        padding-bottom: 1.5rem;
+    }
+    
+    .topText p{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 23px;
+        color: #231F20;
+        width: 95%;
+    }
+    
+    .field button{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 22px;
+        width: 140px;
+        height: 44px;
     }
 }

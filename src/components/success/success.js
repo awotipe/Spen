@@ -3,6 +3,7 @@ import classes from './success.module.css'
 import logo from "../../assets/logo2.svg";
 import frame from "../../assets/blackFrame.png";
 import side from "../../assets/side.png";
+import { Link } from "react-router-dom";
 
 const success = () => {
   return (
@@ -24,7 +25,9 @@ const success = () => {
            <p>We will keep  you posted on all of our products and services</p>
        </div>
        <div className={classes.field} >
+       <Link to="/">
           <button>Go Home</button>
+          </Link>
        </div>
    </div>
 </div>

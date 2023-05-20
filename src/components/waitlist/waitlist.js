@@ -11,6 +11,7 @@ import instagram from "../../assets/instagram.png";
 import facebook from "../../assets/facebook.png";
 import linkedin from "../../assets/linkedin.png";
 import footLogo from "../../assets/footLogo.png";
+import { Link } from "react-router-dom";
 // import curve from '../../assets/redCurve.png'
 
 const waitlist = () => {
@@ -27,7 +28,9 @@ const waitlist = () => {
               Join Our waitlist to get exclusive updates and be the first to
               enjoy our new features.
             </p>
+            <Link to="/form">
             <button>Join waitlist</button>
+            </Link>
           </div>
           <div className={classes.board}>
             <img src={board} alt="img" />

@@ -4,7 +4,7 @@ import logo from "../../assets/logo2.svg";
 import frame from "../../assets/redFrame.png";
 import side from "../../assets/side.png";
 import emailjs from '@emailjs/browser';
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Result = () => {
   return (
@@ -98,7 +98,9 @@ const Form = () => {
               // onChange={handleChange}
               required
             ></input>
+            <Link to="/success">
           <button>Join the waitlist</button>
+          </Link>
           <div className={classes.row}>{result ? <Result /> : null}</div>
           {/* <button onClick={handleSubmit}>Join the waitlist</button> */}
         </div>
